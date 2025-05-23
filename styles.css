@@ -4,12 +4,11 @@
   margin: 0;
   padding: 0;
 }
-
 header.top {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
 }
 header img{
@@ -17,13 +16,13 @@ header img{
 }
 .h1pos{
   margin: 2px;
-  padding-left: 100px;
   width: 100%;
 }
 .h1_nav{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
 }
 .navloc {
     margin-left: 100px;
