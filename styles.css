@@ -15,8 +15,9 @@ header img{
   width: 15%;
 }
 .h1pos{
+  padding: 30px;
   margin: 2px;
-  width: 100%;
+  width: 70%;
 }
 .h1_nav{
   text-align: center;
@@ -25,9 +26,10 @@ header img{
   width: 80%;
 }
 .navloc {
-    margin-left: 100px;
+    
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 .movnav {
     text-align: center;
