@@ -1,0 +1,228 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header.top {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+header img{
+  width: 15%;
+}
+.h1pos{
+  margin: 2px;
+  padding-left: 100px;
+  width: 100%;
+}
+.h1_nav{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navloc {
+    margin-left: 100px;
+    display: flex;
+    width: 100%;
+}
+.movnav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+.movnav li{
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
+    list-style-type: none;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    display:block; 
+    line-height: 2em;
+}
+.active {
+    background-color: darkgreen;
+    color: white;
+  }
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  height:80%;
+  background-color: antiquewhite;
+  }
+  .left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 30px 20px 30px 20px;
+}
+  .left img {
+    width: 80%;
+    height: 300px;
+  object-fit: cover;
+}
+.right {
+width: 45%;
+display: flex;
+gap: 40px;
+flex-direction: column;
+align-items: flex-start;
+margin: 30px 20px 30px 20px;
+}
+#home-rt-img {
+   width: 80%;
+    height: 300px;
+  object-fit: cover;
+}
+#home-h2 {
+  margin: 0px 0px 0px 200px;
+}
+#home-p {
+  border-radius: 10px;
+  color: black;
+  font-size:20px;
+  font-style: italic;  
+  padding: 5px 0px 5px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+/* ........ The following relate to pages Under Construction ....... */
+ #Recipes-rt-img {  
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  }
+#recipes-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+ #hol_seasons-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  }
+#Hol_Seasons-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+#healthy_foods-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+}
+#HealthyFoods-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+  /* ......... This ends the Under Construction CSS code ....... */
+ #aboutus-rt-img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+}
+#aboutus-h2 {
+  margin: 0px 0px 0px 200px;
+}
+#aboutus-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 40px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: darkgreen;
+}
+#under_construction {
+  color: red;
+}
+  footer {
+    color:black;
+    margin: auto;
+    height: 40px;
+    font-size: large;
+    padding: 5px 0px 5px 20px;
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  .contact li {
+    display: inline-block;
+    line-height: em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cycle-slideshow img {
+    width: 100%;
+  height: 300px;
+  object-fit: cover;
+  }
+  @media screen and (max-width: 1200px) {
+  
+  header.top{
+    text-align: center;
+  }
+  header img{
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 800px) {
+  
+  .navloc{
+    margin-left: 0;
+  }
+  .movnav{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .movnav li{
+    width: 100%;
+    border: none;
+  }
+  header.top{
+    text-align: center;
+  }
+  header img{
+    margin-left: 40%;
+    width: 30%;
+  }
+}
+
